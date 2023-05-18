@@ -1,0 +1,161 @@
+@charset "Shift_JIS";
+
+/*** 基本ブロック要素 ***/
+
+body {
+	background:#DDE1EA;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+#all {
+	color:#666666;
+	background:#FFFFFF;
+	text-align:left;
+	font-size:14px;
+	line-height:150%;
+	width:90%;
+	border-left: 1px solid #BDC3CF;
+	border-right:1px solid #BDC3CF;
+	margin:0 auto;
+	padding:24px;
+}
+
+h1 {
+	color:#FFF;
+	background:#B1B7C5;
+	font-size:20px;
+	margin:-24px -24px 24px;
+	padding:12px 24px;
+}
+
+h2 {
+	font-size:14px;
+	color:#FFF;
+	background:#B1B7C5;
+	white-space:nowrap;
+	padding:2px 8px;
+	border-left:12px solid #9699A9;
+}
+
+h3 {
+	font-size:14px;
+	border-left:8px solid #9699A9;
+	border-bottom:1px dashed #9699A9;
+	margin-top:1.5em;
+	padding:0 8px;
+}
+
+h4 {
+	color:#7BB9CF;
+	background:#EDFAFF;
+	font-size:14px;
+	border:1px solid #7BB9CF;
+	border-left:8px solid #7BB9CF;
+	border-right:8px solid #7BB9CF;
+	padding:0 5px;
+	margin:0;
+	display:inline-block;
+}
+
+li {
+	margin-bottom:0.5em;
+}
+
+dt {
+	color:#66C;
+	font-weight:bold;
+}
+
+dd {
+	margin:0 0 1em 1em;
+}
+
+pre {
+	color:#333;
+	background:#F0F0F0;
+	border:1px solid #D0D0D0;
+	line-height:110%;
+	padding:4px;
+	word-wrap:break-word;
+	white-space:-o-pre-wrap;
+	white-space:-moz-pre-wrap;
+	white-space:pre-wrap;
+}
+
+dd p, pre { /* :first-child */
+	margin-top:0;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+th,td {
+	color:#666;
+	border:1px solid #BBB;
+	padding:4px;
+}
+
+th {
+	background:#EEE;
+}
+
+hr {
+	display:none;
+}
+
+address {
+	border-top:1px solid #999;
+	font-style:normal;
+}
+
+/*** 固有ブロック要素 ***/
+
+.shrink li {
+	line-height:120%;
+	margin-bottom:0;
+}
+
+.shrink dt {
+	clear:both;
+	float:left;
+	padding-right:1em;
+}
+
+.shrink dd {
+	margin:0 0 0.5em 8em;
+}
+
+.notice {
+	color:#55A;
+	background:#EEF;
+	border:3px double #CCE;
+	padding:2px;
+}
+
+.nav-tail {
+	border-top:3px double #AAD;
+	padding-top:1em;
+}
+
+/*** インライン要素 ***/
+
+em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+em.file {
+	color:#586AB4;
+}
+
+em.marker {
+	color:#660;
+	background:#FF9;
+	font-weight:normal;
+	padding:2px;
+	border:1px solid #EE8;
+}
+
